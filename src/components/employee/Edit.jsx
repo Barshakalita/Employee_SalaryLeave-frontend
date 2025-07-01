@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchDepartments } from '../../utils/EmployeeHelper';
 import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
-import Department from '../../../../server/models/Department';
+
 const Edit = () => {
     const [employee, setEmployee]=useState({
         name:'',
