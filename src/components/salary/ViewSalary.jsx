@@ -14,7 +14,7 @@ const ViewSalary=()=>{
     useEffect(() => {
         const fetchSalaries = async () => {
             try {
-                const response = await axios.get(`http://localhost:3000/api/salary/${id}/${user.role}`, {
+                const response = await axios.get(`https://employee-salary-leave-api.vercel.app/api/salary/${id}/${user.role}`, {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem("token")}`,
                     },
