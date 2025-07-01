@@ -9,7 +9,7 @@ const Table=()=>{
     const [filteredLeaves, setFilteredLeaves]=useState(null);
     const fetchLeaves=async()=>{
             try {
-                const response = await axios.get('https://employee-salary-leave-api.vercel.app/api/leave', {
+                const response = await axios.get('https://employee-salary-leave-api-bazz.vercel.app/api/leave', {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
                     }

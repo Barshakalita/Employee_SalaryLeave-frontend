@@ -32,7 +32,7 @@ const Add = () => {
         });
 
         try{
-             const response = await axios.post('https://employee-salary-leave-api.vercel.app/api/employee/add', formDataObj,{
+             const response = await axios.post('https://employee-salary-leave-api-bazz.vercel.app/api/employee/add', formDataObj,{
                 headers: {
                     "Authorization" : `Bearer ${localStorage.getItem('token')}`
                 }

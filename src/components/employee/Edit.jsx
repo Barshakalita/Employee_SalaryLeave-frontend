@@ -27,7 +27,7 @@ const Edit = () => {
         const fetchEmployee = async () => {
             
             try {
-                const response = await axios.get(`https://employee-salary-leave-api.vercel.app/api/employee/${id}`, {
+                const response = await axios.get(`https://employee-salary-leave-api-bazz.vercel.app/api/employee/${id}`, {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
                     },
