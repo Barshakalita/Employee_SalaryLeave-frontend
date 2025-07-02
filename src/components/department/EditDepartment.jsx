@@ -12,7 +12,7 @@ const EditDepartment = ()=>{
         const fetchDepartments = async () => {
             setDepLoading(true)
             try {
-                const response = await axios.get(`http://localhost:3000/api/department/${id}`, {
+                const response = await axios.get(`https://employee-salary-leave-api-1iv5.vercel.app/api/department/${id}`, {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
                     },

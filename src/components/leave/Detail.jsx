@@ -10,7 +10,7 @@ const Detail = ()=>{
         const fetchLeave = async () => {
             
             try {
-                const response = await axios.get(`http://localhost:3000/api/leave/detail/${id}`, {
+                const response = await axios.get(`https://employee-salary-leave-api-1iv5.vercel.app/api/leave/detail/${id}`, {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
                     },
@@ -54,7 +54,7 @@ const Detail = ()=>{
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <img  src={`http://localhost:3000/${leave.employeeId.userId.profileImage}`}
+                <img  src={`https://employee-salary-leave-api-1iv5.vercel.app/${leave.employeeId.userId.profileImage}`}
                  className="rounded-full border w-72"
                 /> 
               </div>
