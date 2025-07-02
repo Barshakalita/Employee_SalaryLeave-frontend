@@ -13,7 +13,7 @@ const List=()=>{
         const fetchEmployees = async () => {
             setEmpLoading(true)
             try {
-                const response = await axios.get('https://employee-salary-leave-api-bazz.vercel.app/api/employee', {
+                const response = await axios.get('https://employee-salary-leave-api-1iv5.vercel.app/api/employee', {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
                     }

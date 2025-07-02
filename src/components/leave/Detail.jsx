@@ -30,7 +30,7 @@ const Detail = ()=>{
 
     const changeStatus=async(id,status)=>{
          try {
-                const response = await axios.put(`https://employee-salary-leave-api-bazz.vercel.app/api/leave/${id}`, {status}, {
+                const response = await axios.put(`https://employee-salary-leave-api-1iv5.vercel.app/api/leave/${id}`, {status}, {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
                     },

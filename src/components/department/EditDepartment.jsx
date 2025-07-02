@@ -40,7 +40,7 @@ const EditDepartment = ()=>{
     const handleSubmit = async (e)=>{
         e.preventDefault()
         try{
-             const response = await axios.put(`https://employee-salary-leave-api-bazz.vercel.app/api/department/${id}`,department,{
+             const response = await axios.put(`https://employee-salary-leave-api-1iv5.vercel.app/api/department/${id}`,department,{
                 headers: {
                     "Authorization" : `Bearer ${localStorage.getItem('token')}`
                 }

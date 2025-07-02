@@ -13,7 +13,7 @@ const List=()=>{
     useEffect(() => {
         const fetchLeaves = async () => {
             try {
-                const response = await axios.get(`https://employee-salary-leave-api-bazz.vercel.app/api/leave/${id}/${user.role}`, {
+                const response = await axios.get(`https://employee-salary-leave-api-1iv5.vercel.app/api/leave/${id}/${user.role}`, {
                     headers: {
                         "Authorization": `Bearer ${localStorage.getItem("token")}`,
                     },
