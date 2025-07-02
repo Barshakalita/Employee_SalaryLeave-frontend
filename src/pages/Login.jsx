@@ -17,7 +17,7 @@ const Login = () => {
         try {
             // Modified axios request
             const response = await axios.post(
-                "https://employee-salary-leave-api-1iv5.vercel.app/api/auth/login",
+                "https://employee-salary-leave-api-nn9s.vercel.app/api/auth/login",
                 { email, password },
                 { 
                     headers: {

@@ -18,7 +18,7 @@ const AddDepartment =()=>{
     const handleSubmit = async (e)=>{
         e.preventDefault()
         try{
-             const response = await axios.post('https://employee-salary-leave-api-1iv5.vercel.app/api/department/add',department,{
+             const response = await axios.post('https://employee-salary-leave-api-nn9s.vercel.app/api/department/add',department,{
                 headers: {
                     "Authorization" : `Bearer ${localStorage.getItem('token')}`
                 }

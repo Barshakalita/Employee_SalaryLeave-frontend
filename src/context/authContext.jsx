@@ -18,7 +18,7 @@ export const AuthProvider = ({children}) => {
             }
             
             try {
-                const response = await axios.get('https://employee-salary-leave-api-1iv5.vercel.app/api/auth/verify', {
+                const response = await axios.get('https://employee-salary-leave-api-nn9s.vercel.app/api/auth/verify', {
                     headers: {
                         "Authorization": `Bearer ${token}`
                     } 

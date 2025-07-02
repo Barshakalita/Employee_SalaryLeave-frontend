@@ -8,7 +8,7 @@ const AdminSummary =()=>{
     useEffect(()=>{
         const fetchSummary=async()=>{
             try{
-                const summary=await axios.get('https://employee-salary-leave-api-1iv5.vercel.app/api/dashboard/summary',{
+                const summary=await axios.get('https://employee-salary-leave-api-nn9s.vercel.app/api/dashboard/summary',{
                     headers:{
                         "Authorization": `Bearer ${localStorage.getItem('token')}`
                     }
